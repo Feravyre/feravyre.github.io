@@ -1,0 +1,371 @@
+
+html{
+    height: 100%;
+    margin:0;
+}
+
+body {
+margin:0;
+font-family: "Percy Pixel", Lucida Console, monospace;
+color: #857267;
+height: 100%;
+width: 100%;
+
+}
+
+h1 {
+    font-family: "Percy Pixel", Lucida Console, monospace;
+    font-weight: normal;
+     font-size: 1.5em;
+    padding: 0;
+    margin:0;
+}
+
+h2 {
+    font-family: "Avant Pixel", Lucida Console, monospace;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 10px 0px 15px 0px;
+    padding: 0;
+}
+
+.h2-tweak {
+    font-family: "Instructions", Lucida Console, monospace;
+    font-size: 2em;
+    line-height: 0;
+}
+
+.no-margin {
+    margin:0;
+    padding:0;
+}
+
+.hidden {
+    display: none;
+}
+
+.numbers {
+font-family: "pixel maz", Lucida Console, monospace;
+font-size: 1em;
+}
+
+.punc {
+font-family: "pixel maz", Lucida Console, monospace;
+}
+
+.background-container {
+height: 100vh;
+background-image: url("file:///C:/Users/Kristin/Documents/GitHub/feravyre.github.io/assets/images/background.png");
+background-position:  right;
+background-repeat: no-repeat;
+
+
+
+
+}
+
+a {
+    color: #B3725F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C7775F;
+}
+
+b {
+    font-weight: normal;
+    color: #B3725F;
+}
+
+hr {
+    border: 2px solid #CAC5BA;
+}
+
+ul {
+    list-style-type: square;
+}
+
+nav {
+    text-align: right;
+    margin:0px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #ECE5D9;
+    display: block;
+    width: 260px;
+    height: 100%;
+    max-height: 908px;
+    font-size: 1.5em;
+    margin-left: 60%;
+        bottom: -15px;
+}
+
+
+nav img {
+    display:block;
+    margin:auto;
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.nav-icon {
+    font-size: 0.7em;
+    position: absolute;
+    left: 61%;
+    margin-top: 4px;
+}
+
+.nav-title {
+    color: #B6A390;
+}
+
+.nav-list {
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.nav-list a {
+    color: #857267;
+    display: block;
+}
+
+.nav-list a:hover {
+    color: #C7775F;
+}
+
+.sub-nav-list {
+    list-style-type: none;
+    text-transform: lowercase;
+}
+
+.sub-nav-list a {
+    color: #B6A390;
+    display: block;
+}
+
+.sub-nav-list a:hover {
+    color: #C7775F;
+}
+
+main {
+    display: block;
+    position: absolute;
+    height: 100%;
+    max-height: 908px;
+    background: #ECE5D9;
+    top:0;
+    right: 45%;
+    margin-left: 3%;
+max-width: 800px;
+padding: 15px;
+padding-bottom: 0;
+font-family: "m3x6", Lucida Console, monospace;
+overflow-y: auto;
+}
+
+main li,p {
+    font-size:2em;
+    line-height: 0.8em;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ECE5D9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #CAC5BA;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #CAC5BA;
+}
+
+.main-container {
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.light {
+    color: #B6A390;
+}
+
+.red {
+    color: #B3725F;
+}
+
+.big {
+    font-size: 2em;
+}
+
+
+.letter p {
+    margin:25px 0 0 0;
+}
+
+.flex-container {
+    display: flex;
+     justify-content: center;
+     margin: 0;
+}
+
+.flex-container img{
+    margin: 8px 5px;
+}
+
+.wrapping {
+    flex-wrap: wrap;
+}
+
+.fera-profile {
+    float: right;
+    margin-left: 25px;
+}
+
+.sign {
+    text-align: right;
+}
+
+.sign p {
+    margin-bottom: 15px;
+}
+
+.warning {
+    padding: 42px 30px 15px 30px;
+    float: left;
+    font-size: 4em;
+}
+
+.warning-p {
+    padding-right: 50px;
+}
+
+.center {
+    text-align:center;
+}
+
+.left {
+    text-align:left;
+}
+
+.right {
+    text-align:right;
+}
+
+.listing-even {
+    padding:0;
+    margin:0;
+    margin-right: 15px;
+}
+.listing-odd {
+    padding:0;
+    margin:0;
+    margin-left: 15px;
+}
+
+.banner {
+    text-align:center;
+    padding: 15px 0px;
+}
+
+.social-media {
+margin-top: 15px;
+}
+
+.social-media p {
+    margin-bottom: -13px;
+}
+
+.social-media a {
+color: #857267;
+}
+
+.social-media a:hover {
+    color: #C7775F;
+}
+
+.featured {
+    margin-bottom: -13px;
+    margin-left: 5px;
+}
+
+.flex-group {
+    margin-bottom: -10px;
+}
+
+form {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+input {
+    font-family: "m3x6", Lucida Console, monospace;
+    font-size: 2em;
+    color: #857267;
+    background-color: transparent;
+    border:4px solid #CAC5BA;
+    padding: 5px;
+    width: 100%;
+}
+
+
+::placeholder {
+    color: #B6A390;
+}
+
+
+.left {
+    margin-right: 0px;
+    flex-grow: 1;
+}
+
+.right {
+    margin-left: 0px;
+    flex-grow: 2;
+}
+
+#email {
+    margin:5px 0 5px 0;
+}
+
+#submit {
+    margin-top: 5px;
+}
+
+#submit:hover {
+  cursor:pointer;  
+  color: white;
+  background-color:#B3725F;
+  border:4px solid #B3725F;
+  
+}
+
+textarea {
+    font-family: "m3x6", Lucida Console, monospace;
+    font-size: 2em;
+    color: #857267;
+    padding: 5px;
+    width: 90%;
+    height: 88%;
+    background-color: transparent;
+    border:4px solid #CAC5BA;
+    resize: none;
+}
+
+
+.margin-top {
+    margin:15px 0 0 0;
+}
