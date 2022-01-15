@@ -56,7 +56,7 @@ font-family: "pixel maz", Lucida Console, monospace;
 
 .background-container {
 height: 100vh;
-background-image: url("file:///C:/Users/Kristin/Documents/GitHub/feravyre.github.io/assets/images/background.png");
+background-image: url("assets/images/background.png");
 background-position:  right;
 background-repeat: no-repeat;
 
