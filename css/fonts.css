@@ -26,12 +26,12 @@
 
 @font-face {
     font-family: 'Pixel Maz';
-    src: url('../assets/fonts/Pixel-Maz.eot');
-    src: url('../assets/fonts/Pixel-Maz.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/Pixel-Maz.woff2') format('woff2'),
-        url('../assets/fonts/Pixel-Maz.woff') format('woff'),
-        url('../assets/fonts/Pixel-Maz.ttf') format('truetype'),
-        url('../assets/fonts/Pixel-Maz.svg#Pixel-Maz') format('svg');
+    src: url('/assets/fonts/Pixel-Maz.eot');
+    src: url('/assets/fonts/Pixel-Maz.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Pixel-Maz.woff2') format('woff2'),
+        url('/assets/fonts/Pixel-Maz.woff') format('woff'),
+        url('/assets/fonts/Pixel-Maz.ttf') format('truetype'),
+        url('/assets/fonts/Pixel-Maz.svg#Pixel-Maz') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
