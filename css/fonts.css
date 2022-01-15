@@ -8,7 +8,7 @@
         url('assets/fonts/Pixelated.svg#Pixelated') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @font-face {
@@ -21,7 +21,7 @@
         url('assets/fonts/Instructions.svg#Instructions') format('svg');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @font-face {
@@ -34,7 +34,7 @@
         url('/assets/fonts/Pixel-Maz.svg#Pixel-Maz') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @font-face {
@@ -47,7 +47,7 @@
         url('assets/fonts/Avant-Pixel.svg#Avant-Pixel') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @font-face {
@@ -60,7 +60,7 @@
         url('https://raw.githubusercontent.com/Feravyre/feravyre.github.io/f1e894621bbf7d5f93816cb2533796b5af4e2b4a/assets/fonts/Pixel-Maz.svg') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @font-face {
@@ -73,6 +73,6 @@
         url('assets/fonts/m3x6.svg#m3x6') format('svg');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
