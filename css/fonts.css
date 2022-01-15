@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Pixelated';
+    src: url('assets/fonts/Pixelated.eot');
+    src: url('assets/fonts/Pixelated.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Pixelated.woff2') format('woff2'),
+        url('assets/fonts/Pixelated.woff') format('woff'),
+        url('assets/fonts/Pixelated.ttf') format('truetype'),
+        url('assets/fonts/Pixelated.svg#Pixelated') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instructions';
+    src: url('assets/fonts/Instructions.eot');
+    src: url('assets/fonts/Instructions.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Instructions.woff2') format('woff2'),
+        url('assets/fonts/Instructions.woff') format('woff'),
+        url('assets/fonts/Instructions.ttf') format('truetype'),
+        url('assets/fonts/Instructions.svg#Instructions') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixel Maz';
+    src: url('assets/fonts/Pixel-Maz.eot');
+    src: url('assets/fonts/Pixel-Maz.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Pixel-Maz.woff2') format('woff2'),
+        url('assets/fonts/Pixel-Maz.woff') format('woff'),
+        url('assets/fonts/Pixel-Maz.ttf') format('truetype'),
+        url('assets/fonts/Pixel-Maz.svg#Pixel-Maz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avant Pixel';
+    src: url('assets/fonts/Avant-Pixel.eot');
+    src: url('assets/fonts/Avant-Pixel.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Avant-Pixel.woff2') format('woff2'),
+        url('assets/fonts/Avant-Pixel.woff') format('woff'),
+        url('assets/fonts/Avant-Pixel.ttf') format('truetype'),
+        url('assets/fonts/Avant-Pixel.svg#Avant-Pixel') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Percy Pixel';
+    src: url('assets/fonts/Percy-Pixel.eot');
+    src: url('assets/fonts/Percy-Pixel.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Percy-Pixel.woff2') format('woff2'),
+        url('assets/fonts/Percy-Pixel.woff') format('woff'),
+        url('assets/fonts/Percy-Pixel.ttf') format('truetype'),
+        url('assets/fonts/Percy-Pixel.svg#Percy-Pixel') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'm3x6';
+    src: url('assets/fonts/m3x6.eot');
+    src: url('assets/fonts/m3x6.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/m3x6.woff2') format('woff2'),
+        url('assets/fonts/m3x6.woff') format('woff'),
+        url('assets/fonts/m3x6.ttf') format('truetype'),
+        url('assets/fonts/m3x6.svg#m3x6') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
