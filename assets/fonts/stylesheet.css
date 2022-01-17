@@ -3,33 +3,32 @@
 
 
 @font-face {
-    font-family: 'percy_pixelregular';
-    src: url('percy-pixel-webfont.woff2') format('woff2'),
-         url('percy-pixel-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
     font-family: 'avant_pixelregular';
-    src: url('avant-pixel-webfont.woff2') format('woff2'),
-         url('avant-pixel-webfont.woff') format('woff');
+    src: url('https://github.com/Feravyre/feravyre.github.io/blob/e5ff6af0b5036a37fdab6471152682616da64bb0/assets/fonts/avant-pixel-webfont.woff2?raw=true') format('woff2'),
+         url('https://github.com/Feravyre/feravyre.github.io/blob/master/assets/fonts/avant-pixel-webfont.woff?raw=true') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
 
 
 
 @font-face {
     font-family: 'm3x6medium';
-    src: url('m3x6-webfont.woff2') format('woff2'),
-         url('m3x6-webfont.woff') format('woff');
+    src: url('https://github.com/Feravyre/feravyre.github.io/blob/6308caea4bdd0ea5903d8947df8d6662c78cd94e/assets/fonts/m3x6-webfont.woff2') format('woff2'),
+         url('https://github.com/Feravyre/feravyre.github.io/blob/6308caea4bdd0ea5903d8947df8d6662c78cd94e/assets/fonts/m3x6-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'percy_pixelregular';
+    src: url('https://github.com/Feravyre/feravyre.github.io/blob/6308caea4bdd0ea5903d8947df8d6662c78cd94e/assets/fonts/percy-pixel-webfont.woff2') format('woff2'),
+         url('https://github.com/Feravyre/feravyre.github.io/blob/6308caea4bdd0ea5903d8947df8d6662c78cd94e/assets/fonts/percy-pixel-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
