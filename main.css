@@ -49,7 +49,7 @@ background-repeat: no-repeat;
 
 nav h3 {
     line-height: 0;
-    font-family: 'avant pixel';
+    font-family: 'avant_pixelregular';
     font-size: 2.15em;
     text-transform:uppercase;
     margin-bottom:0;
@@ -63,7 +63,7 @@ nav h3:hover {
 }
 
 nav a {
-    font-family:'Percy Pixel';
+    font-family:'percy_pixelregular';
 }
 
 nav img {
@@ -92,7 +92,7 @@ nav i {
 }
 
 main {
-        font-family: 'm3x6', monospace;
+        font-family: 'm3x6medium', monospace;
     font-size: 2em;
 }
 
@@ -132,7 +132,7 @@ main p {
 }
 
 .psuedo-title {
-        font-family: 'avant pixel';
+        font-family: 'avant_pixelregular';
         font-size: 1.3em;
 }
 
