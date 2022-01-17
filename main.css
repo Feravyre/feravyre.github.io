@@ -136,6 +136,10 @@ main p {
         font-size: 1.3em;
 }
 
+.signature {
+    margin-top:-16px;
+}
+
 .big {
     font-size: 2em;
     padding: 0px 32px;
