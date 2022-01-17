@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'avant_pixelregular';
-    src: url('../Feravyre/assets/fonts/avant-pixel-webfont.woff2') format('woff2'),
-         url('../Feravyre/assets/fonts/avant-pixel-webfont.woff') format('woff');
+    src: url('../feravyre.github.io/assets/fonts/avant-pixel-webfont.woff2') format('woff2'),
+         url('../feravyre.github.io/assets/fonts/avant-pixel-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
