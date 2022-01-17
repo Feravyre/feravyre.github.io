@@ -1,51 +1,272 @@
 <!DOCTYPE html>
 
 <html>
+    
     <head>
-        <title>Index - Feravyre</title>
+        <title>Feravyre</title>
         <meta charset="UTF-8">
-        
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        
-        <link rel="preload" href="assets/fonts/Pixelated.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="assets/fonts/Pixel-Maz.woff2" as="font" type="font/woff2" crossorigin>
-        
         <script src="https://kit.fontawesome.com/446afd0dfc.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/fonts.css">
         
-        
-        
+        <link href="css/fonts.css" rel="stylesheet" type="text/css"/>
+        <link href="css/w3.css" rel="stylesheet" type="text/css"/>
+                <link rel="stylesheet" href="main.css">
+                <link href="css/flexboxgrid.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
-    <div class="background-container">
+    
+    <body class='sky w3-content background' style="max-width:1200px">
         
-        
-        
-        
-        
-        <nav>
-            <a href="index"><img src="assets/images/birdcagewithlogo.png"></a>
-            <hr>
-        <ul class="nav-list">
-            <li><a href="index"><i class="nav-icon fas fa-angle-left"></i>Index</a></li>
-            <li><a href="portfolio"><i class="nav-icon fas fa-angle-left"></i>Portfolio</a></li>
-            <ul class="sub-nav-list">
-                <li><a href="illustration">Illustration</a></li>
-                <li><a href="pixel-art">Pixel-art</a></li>
-                <li><a href="creatures">Creatures</a></li>
-                <li><a href="sketches">Sketches</a></li>
-            </ul>
-            <li><a href="commissions"><i class="nav-icon fas fa-angle-left"></i>Commissions</a></li>
-            <li><a href="about"><i class="nav-icon fas fa-angle-left"></i>About</a></li>
-            <li><a href="contact"><i class="nav-icon fas fa-angle-left"></i>Contact</a></li>
-        </ul>
-            <hr>
+        <nav class="w3-sidebar w3-bar-block sand-bg w3-collapse w3-top" style="z-index: 3; width: 300px; font-weight: bold; display: none;" id="mySidebar">
+            
+              <h3 class="w3-center">Feravyre</h3>
+              <br>
+              <img class="w3-center" src="assets/images/birdcagewithlogo.png" alt=""/>
+              <hr class="w3-hide-large">
+              <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large nav-button">CLOSE</a>
+              <hr>
+              <a href="#" onclick="w3_close()" class="w3-bar-item w3-button nav-button">INDEX
+              <i class="fas fa-caret-right"></i></a>
+              <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button nav-button">PORTFOLIO
+              <i class="fas fa-caret-right"></i></a>
+              <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">illustration
+              </a>
+              <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">pixel-art
+              </a>
+              <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">creatures
+              </a>
+              <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button nav-button">ABOUT
+              <i class="fas fa-caret-right"></i></a> 
+              <a href="#commissions" onclick="w3_close()" class="w3-bar-item w3-button nav-button">COMMISSIONS
+              <i class="fas fa-caret-right"></i></a>
+              <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button nav-button">CONTACT
+              <i class="fas fa-caret-right"></i></a>
+              <hr>
+            
         </nav>
+        
+        
+        
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large sand-bg w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding psuedo-title">FERAVYRE</span>
+  <a href="javascript:void(0)" class="w3-right w3-button sand-bg hover-red" onclick="w3_open()">&#9776;</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+        
+        
+        
+        
+        <main class="w3-main sand-bg" style="margin-left:400px">
+            
+  <!-- Show background image, but hide on small screens --> 
+  <div class="w3-hide-small w3-hide-medium" style="margin-top:1080px;"></div>
+  
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:95px"></div>
+  
+  <div class="w3-container sand-bg w3-center w3-hide-small w3-hide-medium" style="margin-bottom:-16px;">
+      <a href="#portfolio"><i class="fas fa-sort-down animated-arrow"></i></a>
+  </div>
+  
+  
+    <h4 class="section-title" id="portfolio" style="margin-bottom:32px;">#PORTFOLIO<span class="light-text">/featured</span></h4>
+  
+  <!-- Photo grid -->
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="https://via.placeholder.com/250" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="https://via.placeholder.com/250" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="https://via.placeholder.com/250" style="width:100%" onclick="onClick(this)" alt="">
+    </div>
+
+    <div class="w3-third">
+      <img src="https://via.placeholder.com/250" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="https://via.placeholder.com/250" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="https://via.placeholder.com/250" style="width:100%" onclick="onClick(this)" alt="">
+    </div>
+    
+    <div class="w3-third">
+      <img src="https://via.placeholder.com/250" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="https://via.placeholder.com/250" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="https://via.placeholder.com/250" style="width:100%" onclick="onClick(this)" alt="">
+    </div>
+  </div>    
+  
+  
+  
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black hover-red w3-display-topright big">close</span>
+    <div class="w3-modal-content w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div> 
+            
+  
+  
+  
+  
+  <h4 id="about" class="section-title">#ABOUT<span class="light-text">/the.artist</span></h4>
+              <!-- About section -->
+  <div class="w3-container sand-bg w3-center w3-padding-16">
+      
+    <div class="w3-content w3-justify" style="max-width:750px">
+        
+        <img class="about-image" src="https://via.placeholder.com/260x820" alt="">
+        
+        <p class="">
+            Hello world - I'm Feravyre.
+        </p>
+      <p>
+          I'm a multidisciplinary artist and illustrator with a focus on creature design and worldbuilding. Creating emotional, immersive experiences is my goal, and loneliness, fragility, and the humanity of inhuman things are themes I like to explore in my work.
+      </p>
+      <p>
+          While I'm proficient in Photoshop and Illustrator, my personal illustration and design work is produced in Clip Studio Paint and Affinity Designer while my animated pixel work is mostly done in Aseprite.
+      </p>
+      <p>
+          Beyond the world of art, I've earned an Associate's in web design and along the way I've developed my skills with Java, C++, and Javascript. Despite all the time I spend plugged in, my off time is more often spent wandering the woods near my home or caring for my doves.
+      </p>
+      <p>
+          If you're planning an upcoming project and you're interested in working with me, I hope we can connect; I always look forward to bringing fresh ideas to life.
+      </p>
+      <p class="w3-right">Warmly, respectfully,</p>
+      <br><br>
+      <img src='assets/images/signature.png' class="w3-right" alt=''>
+      
+
+
+        
 
     </div>
+  </div>
+              
+<h4 id="commissions" class="section-title">#COMMISSION<span class="light-text">/information</span></h4>   
+              
+<div class="w3-container sand-bg w3-center w3-padding-32">
+    
+    <div class="w3-content w3-justify" style="max-width:750px">
+        
+        <img class="about-image" src="https://via.placeholder.com/260x820">
+
+        
+    </div>
+  </div>
+
+
+
+
+
+<h4 id="contact" class="section-title">#CONTACT<span class="light-text">/social-media</span></h4>   
+              
+<div class="w3-container sand-bg w3-center w3-padding-32">
+    
+    <div class="w3-content w3-center" style="max-width:750px">
+        
+        
+        
+        <img src="https://via.placeholder.com/750x100" class="banner">
+                
+                <p class="">If you're interested in having me on your project, seeking to propose a business opportunity, or just want to ask a question or leave a comment, please fill out the form below.</p>
+                
+                
+                <form class="" action="" method="post" enctype="multipart/form-data">
+                    
+                    
+                    
+                    <div class="flex-container" >
+                        <div class="flex-item" style="flex-grow: 1;">
+                            <input type="text" id="user" placeholder="name" required>
+                            <br>
+                            <input type="email" id='email' placeholder="email" required>
+                            <br>
+                            <input type="text" id='subject' placeholder="subject" required>
+                        </div>
+                        <div class="flex-item" style="flex-grow: 2;">
+                            <textarea id='message' placeholder='type message here' required></textarea>
+                        </div>
+                </div>
+
+                    <input id="submit" type="submit" class="hover-red">
+                    
+                </form>
+
+                <p class="light-text">Alternatively, you can reach me by email at <span class="red-text">contact@feravy.re</span> or find me on social media:</p>
+                
+                <div class="flex-container">
+                    <div class="flex-item social-media">
+                        <a href="https://www.artstation.com/feravyre">
+                        <p class="">ArtStation</p>
+                        <img src="https://via.placeholder.com/120x252">
+                        </a>
+                    </div>
+                    <div class="flex-item social-media">
+                        <a href="https://twitter.com/feravyre">
+                        <p class="">Twitter</p>
+                        <img src="https://via.placeholder.com/120x252">
+                        </a>
+                    </div>
+                    <div class="flex-item social-media">
+                        <a href="">
+                        <p class="">YouTube</p>
+                        <img src="https://via.placeholder.com/120x252">
+                        </a>
+                    </div>
+                    <div class="flex-item social-media">
+                        <a href="https://www.instagram.com/feravyre/">
+                        <p class="">Instagram</p>
+                        <img src="https://via.placeholder.com/120x252">
+                        </a>
+                    </div>
+                    <div class="flex-item social-media">
+                        <a href="https://www.deviantart.com/feravyre">
+                        <p class="">DeviantArt</p>
+                        <img src="https://via.placeholder.com/120x252">
+                        </a>
+                    </div>
+                </div>
+
+    </div>
+    
+    
+  </div>
+
+            
+            
+            
+        </main>
+        <footer></footer>
+        
+        
+        
+        <script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+        
+        
+        
+        
+        
     </body>
+    
 </html>
