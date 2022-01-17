@@ -13,23 +13,10 @@
 
 
 
-
-@font-face {
-    font-family: 'instructionsmedium';
-    src: url('instructions-webfont.woff2') format('woff2'),
-         url('instructions-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
 @font-face {
     font-family: 'm3x6medium';
-    src: url('m3x6-webfont.woff2') format('woff2'),
-         url('m3x6-webfont.woff') format('woff');
+    src: url('https://github.com/Feravyre/feravyre.github.io/blob/6308caea4bdd0ea5903d8947df8d6662c78cd94e/assets/fonts/m3x6-webfont.woff2') format('woff2'),
+         url('https://github.com/Feravyre/feravyre.github.io/blob/6308caea4bdd0ea5903d8947df8d6662c78cd94e/assets/fonts/m3x6-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,32 +27,8 @@
 
 @font-face {
     font-family: 'percy_pixelregular';
-    src: url('percy-pixel-webfont.woff2') format('woff2'),
-         url('percy-pixel-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'pixelatedregular';
-    src: url('pixelated-webfont.woff2') format('woff2'),
-         url('pixelated-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'pixel_mazregular';
-    src: url('pixel-maz-webfont.woff2') format('woff2'),
-         url('pixel-maz-webfont.woff') format('woff');
+    src: url('https://github.com/Feravyre/feravyre.github.io/blob/6308caea4bdd0ea5903d8947df8d6662c78cd94e/assets/fonts/percy-pixel-webfont.woff2') format('woff2'),
+         url('https://github.com/Feravyre/feravyre.github.io/blob/6308caea4bdd0ea5903d8947df8d6662c78cd94e/assets/fonts/percy-pixel-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
