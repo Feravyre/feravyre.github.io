@@ -123,7 +123,7 @@ main {
 }
 
 main p {
-    line-height: 1em;
+    line-height: 0.8em;
     margin: 0.5em;
 }
 .about-image {
