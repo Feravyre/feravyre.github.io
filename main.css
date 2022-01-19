@@ -166,6 +166,10 @@ input {
     line-height:1em;
 }
 
+input[type=submit] {
+    margin-top:4px;
+}
+
 textarea {
     margin-top:4px;
     margin-left: 4px;
