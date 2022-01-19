@@ -167,6 +167,7 @@ input {
 }
 
 textarea {
+    margin-top:5px;
     color: #857267;
     padding: 3px;
     width: 99%;
