@@ -49,8 +49,24 @@ background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    margin: 0;
     font-weight: normal;
     font-family:'percy_pixelregular';
+}
+
+button {
+    border:none;
+    text-decoration:none;
+    display:inline-block;
+    font-family: 'avant_pixelregular';
+    background-color:#CAC5BA;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+button:hover {
+    background-color:#B3725F;
+    color:#fff;
 }
 
 
@@ -99,8 +115,10 @@ nav i {
 }
 
 main {
-        font-family: 'm3x6medium', monospace;
+    font-family: 'm3x6medium', monospace;
     font-size: 2.2em;
+    padding: 1em;
+    margin: 1em 1em;
 }
 
 .animated-arrow {
