@@ -168,12 +168,12 @@ main p {
     justify-content: space-around;
 }
 
-.column.left {
+.column-left {
     flex: 1;
     text-align: left;
 }
 
-.column.right {
+.column-right {
     width: 200px
 }
 
