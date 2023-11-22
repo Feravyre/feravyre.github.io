@@ -133,6 +133,11 @@ main p {
     line-height: 0.8em;
     margin: 0.5em;
 }
+
+.commissions h2 {
+    font-family: 'avant_pixelregular';
+}
+
 .about-image {
     float:right;
     margin-left:32px;
@@ -168,7 +173,7 @@ main p {
 }
 
 .column.right {
-    width: 250px
+    width: 200px
 }
 
 input {
