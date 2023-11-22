@@ -30,7 +30,7 @@
               <hr class="w3-hide-large">
               <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large nav-button">CLOSE</a>
               <hr>
-              <a href="https://feravy.re/" onclick="w3_close()" class="w3-bar-item w3-button nav-button">INDEX
+              <a href="https://feravy.re/" onclick="w3_close()" class="w3-bar-item w3-button nav-button">ABOUT
               <i class="fas fa-caret-right"></i></a>
               <a href="#portfolio" onclick="w3_close(); loadDoc()" class="w3-bar-item w3-button nav-button">PORTFOLIO
               <i class="fas fa-caret-right"></i></a>
@@ -40,8 +40,6 @@
               </a>
               <a href="#/creatures" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">creatures
               </a>
-              <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button nav-button">ABOUT
-              <i class="fas fa-caret-right"></i></a> 
               <a href="#commissions" onclick="w3_close()" class="w3-bar-item w3-button nav-button">COMMISSIONS
               <i class="fas fa-caret-right"></i></a>
               <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button nav-button">CONTACT
@@ -73,7 +71,7 @@ function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("demo").innerHTML = this.responseText;
+     document.getElementById("activeArea").innerHTML = this.responseText;
     }
   };
   xhttp.open("GET", "ajax_info.txt", true);
@@ -81,9 +79,10 @@ function loadDoc() {
 }
 </script>
             
-<div id="demo">
-  <h4 class="section-title" id="index" style="margin-bottom:32px;">INDEX<span class="light-text"></span></h4>
-  <button type="button" onclick="loadDoc()">Change Content</button>
+<div id="activeArea">
+  <h4 class="section-title" id="about" style="margin-bottom:32px;">Fera the Flightless<span class="light-text">/artist/worldbuilder/birdperson</span></h4>
+  <p>Call me Fera. I'm a digital illustrator, pixel art painter, and fancier of flighted things.</p>
+  <p>To find me, look for the plant-riddled robots, muted colors, and lots and lots of creatures that could be described as "dragon-adjacent".</p>
 </div>
             
             
