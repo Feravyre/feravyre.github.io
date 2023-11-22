@@ -1,15 +1,15 @@
 
-
+/* Divider */
 hr {
     border: 2px solid #CAC5BA;
 }
 
+/* Remove link underline */
 a {
     text-decoration: none;
 }
 
 /* COLORS */
-
 .sky,.hover-sky:hover{color:#857267!important;background-color:#CAC5BA!important}
 .sand-bg,.hover-sand-bg:hover,.sand-bg,.hover-sand-bg:hover{color:#857267!important;background-color:#ECE5D9!important}
 .light-text {color: #B6A390;}
@@ -18,7 +18,7 @@ a {
 .dust,.hover-dust:hover{color:#fff!important;background-color: #857267!important;}
 .charcoal{color:#fff!important;background-color: #313131!important;}
 
-
+/* Site background */
 .background {
 background-image: url("https://raw.githubusercontent.com/Feravyre/feravyre.github.io/master/assets/images/background.png");
 background-position: left;
@@ -28,7 +28,7 @@ background-repeat: no-repeat;
 }
 
 
-/* width */
+/* Width */
 ::-webkit-scrollbar {
   width: 8px;
 }
