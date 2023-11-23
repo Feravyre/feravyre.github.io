@@ -12,10 +12,10 @@
                         <p>Your character inside a square--or any geometric shape of your choosing. Make for cool, stylish pieces, especially if the character has any shapes associated with them.</p>
                     </div>    
                     <div class="column-right">
-                        <img src="https://via.placeholder.com/50x200">
-                        <img src="https://via.placeholder.com/50x200">
-                        <img src="https://via.placeholder.com/50x200">
-                        <img src="https://via.placeholder.com/50x200">
+                        <img style="padding:0;" src="https://via.placeholder.com/50x200">
+                        <img style="padding:0;" src="https://via.placeholder.com/50x200">
+                        <img style="padding:0;" src="https://via.placeholder.com/50x200">
+                        <img style="padding:0;" src="https://via.placeholder.com/50x200">
                     </div>
         </div>
         <hr>
