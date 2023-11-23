@@ -31,7 +31,7 @@
               <hr>
               <a href="https://feravy.re/" onclick="w3_close()" class="w3-bar-item w3-button nav-button">ABOUT
               <i class="fas fa-caret-right"></i></a>
-              <a href="#portfolio" onclick="w3_close(); loadDoc()" class="w3-bar-item w3-button nav-button">PORTFOLIO
+              <a href="#portfolio" onclick="w3_close(); loadArea('portfolio');" class="w3-bar-item w3-button nav-button">PORTFOLIO
               <i class="fas fa-caret-right"></i></a>
               <a href="#/illustration" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">illustration
               </a>
@@ -62,24 +62,11 @@
         
         
 <main class="w3-main sand-bg" style="margin-left:400px; margin-top:150px;">
-              
 
             
-<script>
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("activeArea").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "ajax_info.txt", true);
-  xhttp.send();
-}
-</script>
-            
 <div id="activeArea">
-  <h4 class="section-title" id="about" style="margin-bottom:32px;">Fera the Flightless<span class="light-text"></span></h4>
+  <h4 class="section-title" id="about" style="margin-bottom:32px;">I'm Fera the Flightless<span class="light-text"></span></h4>
+  <img class="about-image" src="https://via.placeholder.com/200x200" alt="">
   <p>Call me Fera. I'm a digital illustrator, pixel art painter, and fancier of flighted things.</p>
 </div>
             
@@ -90,7 +77,7 @@ function loadDoc() {
         
         
 <script>
-// Script to open and close sidebar
+// Open and close sidebar
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
   document.getElementById("myOverlay").style.display = "block";
@@ -107,6 +94,18 @@ function onClick(element) {
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
+}
+
+// Load content into activeArea
+function loadArea(sectionTitle) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("activeArea").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", sectionTitle + ".txt", true);
+  xhttp.send();
 }
 
 </script>
