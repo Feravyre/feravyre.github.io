@@ -6,16 +6,13 @@
         
         <div class="flex-container">
                     <div class="column-left">
-                        <h2 class="com-title">Title</h2>
+                        <h2 class="com-title">Squared</h2>
                         <p>$26, monochrome</p>
                         <p>$36, flat color</p>
                         <p>Your character inside a square--or any geometric shape of your choosing. Make for cool, stylish pieces, especially if the character has any shapes associated with them.</p>
                     </div>    
                     <div class="column-right">
-                        <img style="padding:0;" src="https://via.placeholder.com/50x200">
-                        <img style="padding:0;" src="https://via.placeholder.com/50x200">
-                        <img style="padding:0;" src="https://via.placeholder.com/50x200">
-                        <img style="padding:0;" src="https://via.placeholder.com/50x200">
+                        <img src="https://via.placeholder.com/200x200">
                     </div>
         </div>
         <hr>
