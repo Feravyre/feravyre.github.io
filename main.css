@@ -1,4 +1,8 @@
 
+html {
+  scrollbar-gutter: stable;
+}
+
 /* Divider */
 hr {
     border: 2px solid #CAC5BA;
