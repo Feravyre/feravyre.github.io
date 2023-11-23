@@ -1,4 +1,4 @@
-<h4 id="contact" class="section-title">#CONTACT<span class="light-text">/and/social-media</span></h4>   
+<h4 id="contact" class="section-title">Contact<span class="light-text">/and/social-media</span></h4>   
               
 <div class="w3-container sand-bg w3-center w3-padding-32">
     
@@ -32,7 +32,7 @@
                 </form>
                 -->
 
-                <p class="light-text">You can also DM me on social media:</p>
+                <p class="light-text">You can also find me on social media:</p>
                 
                 <div class="flex-container">
                     <div class="flex-item social-media">
