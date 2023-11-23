@@ -31,7 +31,7 @@
               <hr>
               <a href="https://feravy.re/" onclick="w3_close()" class="w3-bar-item w3-button nav-button">ABOUT
               <i class="fas fa-caret-right"></i></a>
-              <a href="#portfolio" onclick="w3_close(); loadArea('portfolio');" class="w3-bar-item w3-button nav-button">PORTFOLIO
+              <a href="#portfolio" onclick="w3_close(); loadArea('portfolio');return false;" class="w3-bar-item w3-button nav-button">PORTFOLIO
               <i class="fas fa-caret-right"></i></a>
               <a href="#/illustration" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">illustration
               </a>
@@ -39,7 +39,7 @@
               </a>
               <a href="#/creatures" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">creatures
               </a>
-              <a href="#commissions" onclick="w3_close()" class="w3-bar-item w3-button nav-button">COMMISSIONS
+              <a href="#commissions" onclick="w3_close(); loadArea('commissions');return false;" class="w3-bar-item w3-button nav-button">COMMISSIONS
               <i class="fas fa-caret-right"></i></a>
               <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button nav-button">CONTACT
               <i class="fas fa-caret-right"></i></a>
@@ -100,7 +100,7 @@ function onClick(element) {
 function loadArea(sectionTitle) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
+    if (this.readyState === 4 && this.status === 200) {
      document.getElementById("activeArea").innerHTML = this.responseText;
     }
   };
