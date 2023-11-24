@@ -1,2 +1,2 @@
-<h4 id="commissions" class="section-title">Commission<span class="light-text">/Terms-of-Service</span></h4>   
+<h4 id="commissions" class="section-title">Commission<span class="light-text">/terms-of-service</span></h4>   
 <p></p>
