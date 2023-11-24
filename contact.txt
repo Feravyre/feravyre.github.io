@@ -7,7 +7,7 @@
         
         <img src="assets/images/cagedBirdSings.png" class="banner" alt="Caged birds"/>
                 
-                <p class="">If you're interested in having me on your project otherwise want to send me a message, I can be reached by email at <span class="red-text">feravyre@gmail.com</span> !</p>
+                <p class="">If you're interested in having me on your project or commission or otherwise want to send me a message, I can be reached by email at <span class="red-text">feravyre@gmail.com</span> !</p>
                 
                 <!--
                 <form class="" action="" method="post" enctype="multipart/form-data">

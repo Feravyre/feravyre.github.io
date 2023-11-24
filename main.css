@@ -58,7 +58,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family:'depixelbreit';
 }
 
-
 nav h3 {
     line-height: 45px;
     font-family: 'avant_pixelregular';
@@ -231,4 +230,39 @@ textarea {
 
 .social-media:hover {
     color: #B3725F;
+}
+
+#navbar > details > summary {
+    font-family:'percy_pixelregular';
+}
+
+.text-upper {
+    text-transform:uppercase;
+}
+
+.text-lower {
+    text-transform:lowercase;
+}
+
+#navbar > details > summary {
+    width:252px!important;
+}
+
+#navbar > details > a {
+    width:252px!important;
+}
+
+#navbar > a:active {
+    color:white!important;
+    background-color: #B3725F!important;
+}
+
+#navbar > details > summary:active {
+    color:white!important;
+    background-color: #B3725F!important;
+}
+
+#navbar > details > a:active {
+    color:white!important;
+    background-color: #B3725F!important;
 }

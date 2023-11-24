@@ -22,27 +22,42 @@
     <body class='sky w3-content background' style="max-width:1400px">
 
         
-        <nav class="w3-sidebar w3-bar-block sand-bg w3-collapse w3-top" style="z-index: 3; width: 300px; font-weight: bold; display: none;" id="mySidebar">
+        <nav class="w3-sidebar w3-bar-block sand-bg w3-collapse w3-top" style="z-index: 3; width: 300px; font-weight: bold; display: none;" id="navbar">
             
             <a href="https://feravy.re/"><h3 class="w3-center">Feravyre</h3></a>
               <img class="w3-center" src="assets/images/birdcagewithlogo.png" alt=""/>
               <hr class="w3-hide-large">
-              <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large nav-button">CLOSE</a>
+              <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large nav-button text-upper">
+                  Close
+              </a>
               <hr>
-              <a href="#about" onclick="w3_close(); loadArea('about');return false;" class="w3-bar-item w3-button nav-button">ABOUT
-              <i class="fas fa-caret-right"></i></a>
-              <a href="#portfolio" onclick="w3_close(); loadArea('portfolio');return false;" class="w3-bar-item w3-button nav-button">PORTFOLIO
-              <i class="fas fa-caret-right"></i></a>
-              <a href="#/illustration" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">illustration
+              <a href="#about" onclick="w3_close(); loadArea('about');return false;" class="w3-bar-item w3-button nav-button text-upper">
+                  About
               </a>
-              <a href="#/pixel-art" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">pixel-art
+              <a href="#illustration" onclick="w3_close(); loadArea('illustration');return false;" class="w3-bar-item w3-button nav-button text-upper">
+                  Illustration
               </a>
-              <a href="#/creatures" onclick="w3_close()" class="w3-bar-item w3-button nav-button light-text">creatures
+              <a href="#pixel-art" onclick="w3_close(); loadArea('pixel-art');return false;" class="w3-bar-item w3-button nav-button text-upper">
+                  Pixel art
               </a>
-              <a href="#commissions" onclick="w3_close(); loadArea('commissions');return false;" class="w3-bar-item w3-button nav-button">COMMISSIONS
-              <i class="fas fa-caret-right"></i></a>
-              <a href="#contact" onclick="w3_close(); loadArea('contact');return false;" class="w3-bar-item w3-button nav-button">CONTACT
-              <i class="fas fa-caret-right"></i></a>
+              <details>
+              <summary class="w3-bar-item w3-button nav-button nav-summary text-upper">
+                  Commissions
+              </summary>
+              <a href="#commissions" onclick="w3_close(); loadArea('commissions');return false;" class="w3-bar-item w3-button nav-button light-text text-lower">
+                  Terms of Service
+              </a>
+              <a href="#commissions" onclick="w3_close(); loadArea('commissions');return false;" class="w3-bar-item w3-button nav-button light-text text-lower">
+                  Illustrations
+              </a>
+              <a href="#commissions" onclick="w3_close(); loadArea('commissions');return false;" class="w3-bar-item w3-button nav-button light-text text-lower">
+                  Pixel art & animation
+              </a>
+              <a href="#commissions" onclick="w3_close(); loadArea('commissions');return false;" class="w3-bar-item w3-button nav-button light-text text-lower">
+                  Pixel vtubers
+              </a>
+              </details>
+              
               <hr>
             
         </nav>
@@ -56,7 +71,7 @@
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="overlay"></div>
         
         
         
@@ -79,13 +94,13 @@
 <script>
 // Open and close sidebar
 function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
+  document.getElementById("navbar").style.display = "block";
+  document.getElementById("overlay").style.display = "block";
 }
  
 function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
+  document.getElementById("navbar").style.display = "none";
+  document.getElementById("overlay").style.display = "none";
 }
 
 // Modal Image Gallery
