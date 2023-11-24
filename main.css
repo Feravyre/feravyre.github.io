@@ -8,6 +8,10 @@ hr {
     border: 2px solid #CAC5BA;
 }
 
+nav hr {
+    margin:0;
+}
+
 /* Remove link underline */
 a {
     text-decoration: none;
@@ -250,19 +254,4 @@ textarea {
 
 #navbar > details > a {
     width:252px!important;
-}
-
-#navbar > a:active {
-    color:white!important;
-    background-color: #B3725F!important;
-}
-
-#navbar > details > summary:active {
-    color:white!important;
-    background-color: #B3725F!important;
-}
-
-#navbar > details > a:active {
-    color:white!important;
-    background-color: #B3725F!important;
 }
