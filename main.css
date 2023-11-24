@@ -258,11 +258,12 @@ textarea {
 
 .summary-button:after {
   content: '\002B';
-  color: #777;
   float: right;
   margin-left: 5px;
+  font-family:'percy_pixelregular';
 }
 
-.active:after {
-  content: "\2212";
+details[open] > .summary-button:after {
+  content: "\2010";
+  font-family:'percy_pixelregular';
 }
