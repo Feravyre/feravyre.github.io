@@ -112,6 +112,10 @@ nav i {
     justify-content: center;
 }
 
+.flex-socials > i {
+    display:inline-block;
+}
+
 .flex-socials > img {
     padding:20px 2px 0 2px;
 }
