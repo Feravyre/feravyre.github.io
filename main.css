@@ -255,3 +255,14 @@ textarea {
 #navbar > details > a {
     width:252px!important;
 }
+
+.summary-button:after {
+  content: '\002B';
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
