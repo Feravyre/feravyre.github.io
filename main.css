@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 nav h3 {
     line-height: 45px;
     font-family: 'avant_pixelregular';
-    font-size: 2.15em;
+    font-size: 32px;
     text-transform:uppercase;
     margin-bottom:0;
     padding-bottom:0;
@@ -91,7 +91,7 @@ nav img {
 .nav-button{
     font-weight:normal!important;
     padding:6px 24px!important;
-    font-size:1.5em;
+    font-size:22px;
 }
 
 .nav-button:hover {
@@ -149,31 +149,31 @@ nav img {
 
 .close-button {
     font-family: 'avant_pixelregular';
-    text-transform:uppercase;
+   text-transform:uppercase;
     margin-top:5px;
 }
 
 main {
-    font-family: 'm3x6medium', monospace;
-    font-size: 2.6em;
+    font-family: 'depixelklein';
     min-height: 600px;
 }
 
 .section-title{
     text-align: left;
-    line-height: 23px;
+    line-height: 38px;
     font-weight: normal;
-    font-family:'depixelbreit';
-    font-size: 0.8em;
-    padding-top: 30px;
+    font-family:'PixelPlay';
+    font-size: 48px;
+    padding-top: 12px;
     padding-left: 16px;
     border-bottom: 4px solid #CAC5BA;
     margin-bottom: 0;
 }
 
 main p {
-    line-height: 0.8em;
+    line-height: 1.3em;
     margin: 0.5em;
+    font-size: 16px;
 }
 
 .com-title {
