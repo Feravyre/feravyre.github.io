@@ -190,15 +190,32 @@ main p, li {
     font-size:24px;
 }
 
-.about-image {
-    float:right;
-    margin-left:20px;
+.flex-about {
+    margin-top:-32px;
+    display:flex;
+    align-items: stretch;
+    height:600px;
+}
+
+#activeArea > main > div > div:nth-child(1) {
+    margin-top: 16px;
+    width:75%;
+}
+
+#activeArea > main > div > div:nth-child(2) {
+    background-color:#857267;
+    background-position: left;
+    height:600px;
+    width:100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    flex-grow:2;
 }
 
 .psuedo-title {
-        font-family: 'avant_pixelregular';
-        font-size: 1.3em;
-        text-transform:uppercase;
+    font-family: 'avant_pixelregular';
+    font-size: 1.3em;
+    text-transform:uppercase;
 }
 
 .big {

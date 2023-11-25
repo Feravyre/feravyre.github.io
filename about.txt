@@ -1,5 +1,12 @@
 <main class="w3-main sand-bg" style="margin-left:400px; margin-top:150px;">
 <h4 class="section-title" style="margin-bottom:32px;">Fera<span class="light-text">/the/</span>Flightless</h4>
-  <img class="about-image" src="https://via.placeholder.com/200x200" alt="">
-  <p>Call me Fera. I'm a digital illustrator, pixel art painter, and fancier of flighted things.</p>
+<div class="flex-about">
+    
+    <div>
+        <p>Call me Fera. I'm a digital illustrator, pixel art painter, and fancier of flighted things.</p>
+    </div>
+    <div>
+    </div>
+    
+</div>
 </main>
