@@ -160,25 +160,26 @@ main {
 
 .section-title{
     text-align: left;
-    line-height: 38px;
+    line-height: 28px;
     font-weight: normal;
-    font-family:'PixelPlay';
-    font-size: 48px;
-    padding-top: 12px;
+    font-family:'depixelbreit';
+    font-size: 32px;
+    padding-top: 16px;
     padding-left: 16px;
     border-bottom: 4px solid #CAC5BA;
     margin-bottom: 0;
 }
 
 main p {
-    line-height: 1.3em;
-    margin: 0.5em;
-    font-size: 16px;
+    line-height: 1.2em;
+    margin: 0.8em;
+    font-size: 18px;
 }
 
 .com-title {
     font-family: 'avant_pixelregular';
     text-transform: uppercase;
+    font-size:24px;
 }
 
 .about-image {
