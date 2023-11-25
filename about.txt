@@ -1,10 +1,21 @@
 <main class="w3-main sand-bg" style="margin-left:400px; margin-top:150px;">
-<h4 class="section-title" style="margin-bottom:32px;">Fera<span class="light-text">/the/</span>Flightless</h4>
 <div class="flex-about">
-    
+
     <div>
-        <p>Call me Fera. I'm a digital illustrator, pixel art painter, and fancier of flighted things.</p>
+        <h1 class="about-title">Fera<span class="light-text"> the </span><br>Flightless</h4>
+            <hr>
+        <p>Call me Fera. I'm a digital illustrator, pixel art painter, and fancier of flighted things. Suspendisse ac pellentesque elit, id efficitur leo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero risus, semper et leo eu, mattis dictum nisl. Aenean maximus interdum ullamcorper.</p>
+        <hr>
+        <div class="flex-socials">
+            <a class="twitter" href="https://twitter.com/feravyre"></a>
+            <a class="instagram" href="https://www.instagram.com/feravyre"></a>
+            <a class="youtube" href="https://www.youtube.com/@feravyre"></a>
+            <a class="tumblr" href="https://feravyre.tumblr.com/"></a>
+            <a class="artstation" href="https://www.artstation.com/feravyre"></a>
+        </div>
     </div>
+
     <div>
     </div>
     

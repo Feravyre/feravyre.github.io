@@ -90,7 +90,7 @@ nav img {
 
 .nav-button{
     font-weight:normal!important;
-    padding:6px 24px!important;
+    padding:8px 24px!important;
     font-size:22px;
 }
 
@@ -100,58 +100,60 @@ nav img {
 }
 
 .flex-socials {
+    margin-top:-10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap:0 5px;
+    padding-bottom:15px;
 }
 
-.flex-socials > .social-icon {
-    width:48px;
-    height:48px;
-    padding:20px 2px 0 2px;
+.flex-socials > a {
+    width:32px;
+    height:32px;
 }
 
 .twitter {
-    background: url("assets/images/social-icons/twitter-48.png") no-repeat;
+    background: url("assets/images/social-icons/twitter-32.png") no-repeat;
 }
 
 .twitter:hover {
-    background: url("assets/images/social-icons/twitter-48-hover.png") no-repeat;
+    background: url("assets/images/social-icons/twitter-32-hover.png") no-repeat;
     cursor:pointer;
 }
 
 .instagram {
-    background: url("assets/images/social-icons/instagram-48.png") no-repeat;
+    background: url("assets/images/social-icons/instagram-32.png") no-repeat;
 }
 
 .instagram:hover {
-    background: url("assets/images/social-icons/instagram-48-hover.png") no-repeat;
+    background: url("assets/images/social-icons/instagram-32-hover.png") no-repeat;
     cursor:pointer;
 }
 
 .youtube {
-    background: url("assets/images/social-icons/youtube-48.png") no-repeat;
+    background: url("assets/images/social-icons/youtube-32.png") no-repeat;
 }
 
 .youtube:hover {
-    background: url("assets/images/social-icons/youtube-48-hover.png") no-repeat;
+    background: url("assets/images/social-icons/youtube-32-hover.png") no-repeat;
     cursor:pointer;
 }
 .tumblr {
-    background: url("assets/images/social-icons/tumblr-48.png") no-repeat;
+    background: url("assets/images/social-icons/tumblr-32.png") no-repeat;
 }
 
 .tumblr:hover {
-    background: url("assets/images/social-icons/tumblr-48-hover.png") no-repeat;
+    background: url("assets/images/social-icons/tumblr-32-hover.png") no-repeat;
     cursor:pointer;
 }
 
 .artstation {
-    background: url("assets/images/social-icons/artstation-48.png") no-repeat;
+    background: url("assets/images/social-icons/artstation-32.png") no-repeat;
 }
 
 .artstation:hover {
-    background: url("assets/images/social-icons/artstation-48-hover.png") no-repeat;
+    background: url("assets/images/social-icons/artstation-32-hover.png") no-repeat;
     cursor:pointer;
 }
 
@@ -178,6 +180,23 @@ main {
     margin-bottom: 0;
 }
 
+.flex-about {
+    display:flex;
+    align-items: stretch;
+    min-height:600px;
+}
+
+.flex-about > p {
+    
+}
+
+.about-title {
+    font-family: 'PixelPlay';
+    line-height:64px;
+    margin-left: 20px;
+    font-size:64px;
+}
+
 main p, li {
     line-height: 1.2em;
     margin: .8em 1.2em;
@@ -190,13 +209,6 @@ main p, li {
     font-size:24px;
 }
 
-.flex-about {
-    margin-top:-32px;
-    display:flex;
-    align-items: stretch;
-    height:600px;
-}
-
 #activeArea > main > div > div:nth-child(1) {
     margin-top: 16px;
     width:75%;
@@ -205,7 +217,7 @@ main p, li {
 #activeArea > main > div > div:nth-child(2) {
     background-color:#857267;
     background-position: left;
-    height:600px;
+    min-height:600px;
     width:100%;
     background-attachment:fixed;
     background-repeat: no-repeat;
