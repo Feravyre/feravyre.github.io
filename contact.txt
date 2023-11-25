@@ -1,4 +1,4 @@
-<h4 id="contact" class="section-title">Contact<span class="light-text">/and/social-media</span></h4>   
+<h4 class="section-title">Contact<span class="light-text">/and/social-media</span></h4>   
               
 <div class="w3-container sand-bg w3-center w3-padding-32">
     
