@@ -1,2 +1,4 @@
-<h4 id="commissions" class="section-title">Commission<span class="light-text">/ordering-information</span></h4>   
+<main class="w3-main sand-bg" style="margin-left:400px; margin-top:150px;">
+<h4 class="section-title">Commission<span class="light-text">/ordering-information</span></h4>   
 <p></p>
+</main>

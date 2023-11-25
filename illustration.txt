@@ -1,4 +1,6 @@
-<h4 class="section-title" id="portfolio" style="margin-bottom:32px;">Portfolio<span class="light-text">/illustration</span></h4>
+<main class="w3-main sand-bg" style="margin-left:400px; margin-top:150px;">
+<h4 class="section-title" style="margin-bottom:32px;">Illustration<span class="light-text">/portfolio</span></h4>
 <p>AJAX is not a programming language.</p>
 <p>AJAX is a technique for accessing web servers from a web page.</p>
 <p>AJAX stands for Asynchronous JavaScript And XML.</p>
+</main>
