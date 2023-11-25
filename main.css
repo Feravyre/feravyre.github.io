@@ -106,44 +106,52 @@ nav img {
 }
 
 .flex-socials > .social-icon {
-    width:64px;
-    height:64px;
+    width:48px;
+    height:48px;
     padding:20px 2px 0 2px;
 }
 
 .twitter {
-    background: url("assets/images/social-icons/twitter-64.png") no-repeat;
+    background: url("assets/images/social-icons/twitter-48.png") no-repeat;
 }
 
 .twitter:hover {
-    background: url("assets/images/social-icons/twitter-64-hover.png") no-repeat;
+    background: url("assets/images/social-icons/twitter-48-hover.png") no-repeat;
     cursor:pointer;
 }
 
 .instagram {
-    background: url("assets/images/social-icons/instagram-64.png") no-repeat;
+    background: url("assets/images/social-icons/instagram-48.png") no-repeat;
 }
 
 .instagram:hover {
-    background: url("assets/images/social-icons/instagram-64-hover.png") no-repeat;
+    background: url("assets/images/social-icons/instagram-48-hover.png") no-repeat;
     cursor:pointer;
 }
 
 .youtube {
-    background: url("assets/images/social-icons/youtube-64.png") no-repeat;
+    background: url("assets/images/social-icons/youtube-48.png") no-repeat;
 }
 
 .youtube:hover {
-    background: url("assets/images/social-icons/youtube-64-hover.png") no-repeat;
+    background: url("assets/images/social-icons/youtube-48-hover.png") no-repeat;
+    cursor:pointer;
+}
+.tumblr {
+    background: url("assets/images/social-icons/tumblr-48.png") no-repeat;
+}
+
+.tumblr:hover {
+    background: url("assets/images/social-icons/tumblr-48-hover.png") no-repeat;
     cursor:pointer;
 }
 
 .artstation {
-    background: url("assets/images/social-icons/artstation-64.png") no-repeat;
+    background: url("assets/images/social-icons/artstation-48.png") no-repeat;
 }
 
 .artstation:hover {
-    background: url("assets/images/social-icons/artstation-64-hover.png") no-repeat;
+    background: url("assets/images/social-icons/artstation-48-hover.png") no-repeat;
     cursor:pointer;
 }
 
