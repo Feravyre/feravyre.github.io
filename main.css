@@ -170,11 +170,9 @@ main {
 
 .section-title{
     text-align: left;
-    line-height: 24px;
     font-weight: normal;
-    font-family:'depixelbreit';
-    font-size: 28px;
-    padding-top: 16px;
+    font-family:'PixelPlay';
+    font-size: 48px;
     padding-left: 16px;
     border-bottom: 4px solid #CAC5BA;
     margin-bottom: 0;

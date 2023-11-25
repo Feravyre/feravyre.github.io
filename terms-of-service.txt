@@ -1,5 +1,5 @@
 <main class="w3-main sand-bg" style="margin-left:400px; margin-top:150px;">
-<h4 class="section-title">Terms<span class="light-text">/of/</span>Service</h4>   
+<h2 class="section-title">Terms<span class="light-text"> of </span>Service</h4>   
 <p class="text-upper">To commission me, you will need to agree to the following conditions:</p>
 <ul class="tos-list">
 <li>Payment is accepted via Paypal or Ko-fi and prices are listed in USD. All paypal or other transactional fees will be covered by me, the artist. Commissioners are never responsible for paying surcharges to cover these fees.</li>
