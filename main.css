@@ -102,31 +102,55 @@ nav img {
 .flex-socials {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.flex-socials > img {
+.flex-socials > .social-icon {
+    width:64px;
+    height:64px;
     padding:20px 2px 0 2px;
+}
+
+.twitter {
+    background: url("assets/images/social-icons/twitter-64.png") no-repeat;
+}
+
+.twitter:hover {
+    background: url("assets/images/social-icons/twitter-64-hover.png") no-repeat;
+    cursor:pointer;
+}
+
+.instagram {
+    background: url("assets/images/social-icons/instagram-64.png") no-repeat;
+}
+
+.instagram:hover {
+    background: url("assets/images/social-icons/instagram-64-hover.png") no-repeat;
+    cursor:pointer;
+}
+
+.youtube {
+    background: url("assets/images/social-icons/youtube-64.png") no-repeat;
+}
+
+.youtube:hover {
+    background: url("assets/images/social-icons/youtube-64-hover.png") no-repeat;
+    cursor:pointer;
+}
+
+.artstation {
+    background: url("assets/images/social-icons/artstation-64.png") no-repeat;
+}
+
+.artstation:hover {
+    background: url("assets/images/social-icons/artstation-64-hover.png") no-repeat;
+    cursor:pointer;
 }
 
 main {
     font-family: 'm3x6medium', monospace;
     font-size: 2.2em;
     min-height: 600px;
-}
-
-.animated-arrow {
-    display: block;
-    padding: 20px;
-    font-size: 2em;
-    margin-bottom: 32px;
-    margin-top: 14px;
-}
-
-.animated-arrow:hover {
-    cursor:pointer;
-    color: white;
-    background-color: #B3725F;
 }
 
 .section-title{
@@ -229,14 +253,6 @@ textarea {
 
 #submit:hover {
         border:4px solid #B3725F;
-}
-
-.social-media p {
-    margin-bottom: -5px;
-}
-
-.social-media:hover {
-    color: #B3725F;
 }
 
 #navbar > details > summary {
