@@ -170,7 +170,7 @@ main {
     margin-bottom: 0;
 }
 
-main p {
+main p, li {
     line-height: 1.2em;
     margin: .8em 1.2em;
     font-size: 18px;
@@ -243,4 +243,13 @@ main p {
 details[open] > .summary-button:after {
   content: "\2010";
   font-family:'percy_pixelregular';
+}
+
+.tos-list {
+    
+}
+
+.tos-list > li {
+    list-style-type: '\25B8';
+    padding:2px 0 2px 5px;
 }
