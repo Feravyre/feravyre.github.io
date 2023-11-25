@@ -2,7 +2,7 @@
 <div class="flex-about">
 
     <div>
-        <h1 class="about-title">Fera<span class="light-text"> the </span><br>Flightless</h4>
+        <h1 class="about-title">Fera<span class="light-text"> the </span><br>Flightless</h1>
             <hr>
         <p>Call me Fera. I'm a digital illustrator, pixel art painter, and fancier of flighted things. Suspendisse ac pellentesque elit, id efficitur leo.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero risus, semper et leo eu, mattis dictum nisl. Aenean maximus interdum ullamcorper.</p>

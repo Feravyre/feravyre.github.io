@@ -1,4 +1,4 @@
 <main class="w3-main sand-bg" style="margin-left:400px; margin-top:150px;">
-<h2 class="section-title">Ordering<span class="light-text"> </span>information</h4>   
+<h2 class="section-title">Ordering<span class="light-text"> </span>information</h2>   
 <p></p>
 </main>
