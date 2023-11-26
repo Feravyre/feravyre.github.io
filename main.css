@@ -193,15 +193,12 @@ main a {
     text-align:justify;
 }
 
-.flex-about > p {
-    
-}
-
 .about-title {
     font-family: 'PixelPlay';
     line-height:64px;
     margin-left: 20px;
     font-size:64px;
+    margin-top:0;
 }
 
 main p, li {
