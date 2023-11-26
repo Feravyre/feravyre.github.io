@@ -1,7 +1,7 @@
 <main class="w3-main sand-bg" style="margin-left:400px; margin-top:150px;">
 <div class="flex-about">
 
-    <div>
+    <div class="about-text">
         <h1 class="about-title">Fera<span class="light-text"> the </span><br>Flightless</h1>
             <hr>
         <p>Call me Fera. I'm a digital illustrator, pixel art painter, and fancier of flighted things. Suspendisse ac pellentesque elit, id efficitur leo.</p>
@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="about-image">
     </div>
     
 </div>

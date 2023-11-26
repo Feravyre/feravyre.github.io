@@ -56,13 +56,15 @@ background-repeat: no-repeat;
   background: #CAC5BA;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+main h1, h2, h3, h4, h5, h6 {
+    margin: 15px 20px;
     font-weight: normal;
-    font-family:'PixelPlay';
+    font-family:'depixelschmal';
+
 }
 
 nav h3 {
+    margin:0;
     line-height: 45px;
     font-family: 'avant_pixelregular';
     font-size: 32px;
@@ -166,9 +168,15 @@ nav img {
 main {
     font-family: 'depixelklein';
     min-height: 600px;
+    padding-bottom:10px;
+}
+
+main a {
+    color:#B3725F;
 }
 
 .section-title{
+    margin:0;
     text-align: left;
     font-weight: normal;
     font-family:'PixelPlay';
@@ -182,6 +190,7 @@ main {
     display:flex;
     align-items: stretch;
     min-height:600px;
+    text-align:justify;
 }
 
 .flex-about > p {
@@ -197,7 +206,7 @@ main {
 
 main p, li {
     line-height: 1.2em;
-    margin: .8em 1.2em;
+    margin: 15px 20px;
     font-size: 18px;
 }
 
@@ -207,12 +216,12 @@ main p, li {
     font-size:24px;
 }
 
-#activeArea > main > div > div:nth-child(1) {
+#activeArea > main > div > .about-text {
     margin-top: 16px;
     width:75%;
 }
 
-#activeArea > main > div > div:nth-child(2) {
+#activeArea > main > div > .about-image {
     background-color:#857267;
     background-position: left;
     min-height:600px;
