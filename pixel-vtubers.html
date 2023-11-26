@@ -1,116 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+    <title>Fera the Flightless</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        
+    <link href="css/fonts.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/fonts/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link href="css/w3.css" rel="stylesheet" type="text/css"/>
+    <link href="css/flexboxgrid.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="main.css">
+        
+    <script src="https://kit.fontawesome.com/446afd0dfc.js" crossorigin="anonymous"></script>
+    <script>
+        // Open and close sidebar
+        function w3_open() {
+            document.getElementById("navbar").style.display = "block";
+            document.getElementById("overlay").style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("navbar").style.display = "none";
+            document.getElementById("overlay").style.display = "none";
+        }
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+        // Load content into activeArea
+        function loadArea(sectionTitle) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState === 4 && this.status === 200) {
+                    document.getElementById("activeArea").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", sectionTitle + ".txt", true);
+            xhttp.send();
+        }
+    </script>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+        kofiWidgetOverlay.draw('fera', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': '',
+            'floating-chat.donateButton.background-color': '#B3725F',
+            'floating-chat.donateButton.text-color': '#857267'
+        });
+    </script>
+</head>
+    
+<body class='sky w3-content background' style="max-width:1400px">
+
+<nav class="w3-sidebar w3-bar-block sand-bg w3-collapse w3-top" style="z-index: 3; width: 300px; font-weight: bold; display: none;" id="navbar">
+    
+    <a href="https://feravy.re/"><h3 class="w3-center">Feravyre</h3></a>
+    <img class="w3-center" src="assets/images/birdcagewithlogo.png" alt=""/>
+    <hr class="w3-hide-large">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large nav-button text-upper">
+        Close
+    </a>
+    <hr>
+    <a href="about" onclick="w3_close();" class="w3-bar-item w3-button nav-button text-upper">
+        About
+    </a>
+    <a href="illustration" onclick="w3_close();" class="w3-bar-item w3-button nav-button text-upper">
+        Illustration
+    </a>
+    <a href="pixel-art" onclick="w3_close();" class="w3-bar-item w3-button nav-button text-upper">
+        Pixel art
+    </a>
+    <a href="worldbuilding" onclick="w3_close();" class="w3-bar-item w3-button nav-button text-upper">
+        Worldbuilding
+    </a>
+    <details>
+    <summary class="w3-bar-item w3-button nav-button text-upper summary-button">
+        Commissions
+    </summary>
+    <a href="odering-information" onclick="w3_close();" class="w3-bar-item w3-button nav-button light-text text-lower">
+        Ordering information
+    </a>
+    <a href="illustration-and-design" onclick="w3_close();" class="w3-bar-item w3-button nav-button light-text text-lower">
+        Illustration & Design
+    </a>
+    <a href="pixel-art-and-animation" onclick="w3_close();" class="w3-bar-item w3-button nav-button light-text text-lower">
+        Pixel art & Animation
+    </a>
+    <a href="pixel-vtubers" onclick="w3_close();" class="w3-bar-item w3-button nav-button light-text text-lower">
+        Pixel VTubers
+    </a>
+    </details>
+    <hr>
+</nav>
+        
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large sand-bg w3-xlarge w3-padding-16">
+    <span class="w3-left w3-padding psuedo-title">Feravyre</span>
+    <a href="javascript:void(0)" class="w3-right w3-button sand-bg hover-red close-button" onclick="w3_open()">menu</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="overlay"></div>
+
 <main class="w3-main sand-bg" style="margin-left:400px; margin-top:150px;">
-<h2 class="section-title">Pixel<span class="light-text"> V</span>Tubers</h2> 
-
-<p>
-    I offer both model art and rigging, but for now I will only rig models I have created. Prices for models and rigging are listed separately.
-</p>
-<p>
-    If you need help finalizing a design for your VTuber model, I'm happy to help for an additional fee.
-</p>
-<p>
-    See examples of my character design work <a href="#">here</a>.
-</p>
-<h3>Model Art</h3>
-<p>
-    Models include 4 expressions by default. 
-</p>
-<p>
-    Please specify the style you'd like for your model using the examples below. 
-</p>
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
-    <div class="w3-center">
-        <img src="https://placehold.co/200x300">
-        <p>
-            Super Simple
-            <br>
-            $50<span style="font-family:'percy_pixelregular';">+</span>
-        </p>
+    <h2 class="section-title">Pixel<span class="light-text"> V</span>Tubers</h2> 
+    <p>
+        I offer both model art and rigging, but for now I will only rig models I have created. Prices for models and rigging are listed separately.
+    </p>
+    <p>
+        If you need help finalizing a design for your VTuber model, I'm happy to help for an additional fee.
+    </p>
+    <p>
+        See examples of my character design work <a href="#">here</a>.
+    </p>
+    <h3>Model Art</h3>
+    <p>
+        Models include 4 expressions by default. 
+    </p>
+    <p>
+        Please specify the style you'd like for your model using the examples below. 
+    </p>
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
+        <div class="w3-center">
+            <img src="https://placehold.co/200x300">
+            <p>
+                Super Simple
+                <br>
+                $50<span style="font-family:'percy_pixelregular';">+</span>
+            </p>
+        </div>
+        <div class="w3-center">
+            <img src="https://placehold.co/200x300">
+            <p>
+                Chibified
+                <br>
+                $80<span style="font-family:'percy_pixelregular';">+</span>
+            </p>
+        </div>
+        <div class="w3-center">
+            <img src="https://placehold.co/200x300">
+            <p>
+                Full Anime
+                <br>
+                $120<span style="font-family:'percy_pixelregular';">+</span>
+            </p>
+        </div>
+        <div class="w3-center">
+            <img src="https://placehold.co/200x300">
+            <p>
+                Masterpiece
+                <br>
+                $180<span style="font-family:'percy_pixelregular';">+</span>
+            </p>
+        </div>
     </div>
-    <div class="w3-center">
-        <img src="https://placehold.co/200x300">
-        <p>
-            Chibified
-            <br>
-            $80<span style="font-family:'percy_pixelregular';">+</span>
-        </p>
+    <h3>Expressions, Toggles, and Add-ons</h3>
+    <p>
+        Additional expressions, outfits, hair styles, and arm poses? You got it. Pets, wings, and other large accessories? I can do that too.
+    </p>
+    <hr>
+    <h3>Rigging</h3>
+    <p>
+        There are two rigging styles I use - I call them "smooth" and "snap." Smooth rigging is what you typically see in 2D VTubers, with only a few elements being hand-drawn to mesh with the pixel art style. Snap rigging requires many frames to be hand-drawn, making it pricier, but gives the satisfying appearance of real pixel animation.
+    </p>
+    <p>
+        See more examples of my rigging work <a href="">here</a>.
+    </p>
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
+        <div class="w3-center">
+            <h3 class="com-title">Smooth rigging</h3>
+            <iframe width="450" height="280" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="w3-center">
+            <h3 class="com-title">Snap rigging</h3>
+            <iframe width="450" height="280" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </div>
-    <div class="w3-center">
-        <img src="https://placehold.co/200x300">
-        <p>
-            Full Anime
-            <br>
-            $120<span style="font-family:'percy_pixelregular';">+</span>
-        </p>
+    
+    <h3>Pricing</h3>
+    <p>
+        Prices for rigging are highly dependant on the style of the model. Smaller resolution models are generally less costly to rig as there are fewer details to manipulate. 
+    </p>
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
+        <div class="w3-center">
+            <img src="https://placehold.co/200x300">
+            <p>
+                Super Simple
+                <br>
+                $25<span style="font-family:'percy_pixelregular';">+</span>
+            </p>
+        </div>
+        <div class="w3-center">
+            <img src="https://placehold.co/200x300">
+            <p>
+                Chibified
+                <br>
+                $75<span style="font-family:'percy_pixelregular';">+</span>
+            </p>
+        </div>
+        <div class="w3-center">
+            <img src="https://placehold.co/200x300">
+            <p>
+                Full Anime
+                <br>
+                $150<span style="font-family:'percy_pixelregular';">+</span>
+            </p>
+        </div>
+        <div class="w3-center">
+            <img src="https://placehold.co/200x300">
+            <p>
+                Masterpiece
+                <br>
+                $200<span style="font-family:'percy_pixelregular';">+</span>
+            </p>
+        </div>
     </div>
-    <div class="w3-center">
-        <img src="https://placehold.co/200x300">
-        <p>
-            Masterpiece
-            <br>
-            $180<span style="font-family:'percy_pixelregular';">+</span>
-        </p>
-    </div>
-</div>
-<h3>Expressions, Toggles, and Add-ons</h3>
-<p>
-    Additional expressions, outfits, hair styles, and arm poses? You got it. Pets, wings, and other large accessories? I can do that too.
-</p>
-<hr>
-<h3>Rigging</h3>
-<p>
-    There are two rigging styles I use - I call them "smooth" and "snap." Smooth rigging is what you typically see in 2D VTubers, with only a few elements being hand-drawn to mesh with the pixel art style. Snap rigging requires many frames to be hand-drawn, making it pricier, but gives the satisfying appearance of real pixel animation.
-</p>
-<p>
-    See more examples of my rigging work <a href="">here</a>.
-</p>
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
-    <div class="w3-center">
-        <h3 class="com-title">Smooth rigging</h3>
-        <iframe width="450" height="280" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    <div class="w3-center">
-        <h3 class="com-title">Snap rigging</h3>
-        <iframe width="450" height="280" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-</div>
-
-<h3>Pricing</h3>
-<p>
-    Prices for rigging are highly dependant on the style of the model. Smaller resolution models are generally less costly to rig as there are fewer details to manipulate. 
-</p>
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
-    <div class="w3-center">
-        <img src="https://placehold.co/200x300">
-        <p>
-            Super Simple
-            <br>
-            $25<span style="font-family:'percy_pixelregular';">+</span>
-        </p>
-    </div>
-    <div class="w3-center">
-        <img src="https://placehold.co/200x300">
-        <p>
-            Chibified
-            <br>
-            $75<span style="font-family:'percy_pixelregular';">+</span>
-        </p>
-    </div>
-    <div class="w3-center">
-        <img src="https://placehold.co/200x300">
-        <p>
-            Full Anime
-            <br>
-            $150<span style="font-family:'percy_pixelregular';">+</span>
-        </p>
-    </div>
-    <div class="w3-center">
-        <img src="https://placehold.co/200x300">
-        <p>
-            Masterpiece
-            <br>
-            $200<span style="font-family:'percy_pixelregular';">+</span>
-        </p>
-    </div>
-</div>
-<hr>
+    <hr>
 </main>
+
+<footer></footer>
+
+</body>
+
+</html>
