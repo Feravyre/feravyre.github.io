@@ -1,3 +1,3 @@
 # feravyre.github.io
 
-If you managed to get here somehow, please leave peacefully. THank you.
+If you managed to get here somehow, please leave peacefully. Thank you.
