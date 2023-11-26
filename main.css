@@ -212,12 +212,12 @@ main p, li {
     font-size:24px;
 }
 
-#activeArea > main > div > .about-text {
+main > div > .about-text {
     margin-top: 16px;
     width:75%;
 }
 
-#activeArea > main > div > .about-image {
+main > div > .about-image {
     background-color:#857267;
     background-position: left;
     min-height:600px;
