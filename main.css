@@ -253,10 +253,6 @@ main > div > .about-image {
     width: 200px
 }
 
-#navbar > details > summary {
-    font-family:'percy_pixelregular';
-}
-
 .text-upper {
     text-transform:uppercase;
 }
@@ -266,7 +262,8 @@ main > div > .about-image {
 }
 
 #navbar > details > summary {
-    width:252px!important;
+    font-family:'percy_pixelregular';
+    max-width:252px!important;
 }
 
 #navbar > details > a {
