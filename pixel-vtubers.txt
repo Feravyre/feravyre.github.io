@@ -5,7 +5,9 @@
     I offer both model art and rigging, but for now I will only rig models I have created. Prices for models and rigging are listed separately.
 </p>
 <p>
-    If you need help finalizing a design for your VTuber model, I'm happy to help for an additional fee. <br> 
+    If you need help finalizing a design for your VTuber model, I'm happy to help for an additional fee.
+</p>
+<p>
     See examples of my character design work <a href="#">here</a>.
 </p>
 <h3>Model Art</h3>
@@ -56,23 +58,19 @@
 <hr>
 <h3>Rigging</h3>
 <p>
-    There are two rigging styles I use - I call them "smooth" and "snap." Smooth rigging is what you typically see in 2D VTubers, with only a few elements being hand-drawn to mesh with the pixel art style. Snap rigging requires many frames to be hand-drawn, making it pricier, but gives the satisfying appearance of real pixel animation. <br>
+    There are two rigging styles I use - I call them "smooth" and "snap." Smooth rigging is what you typically see in 2D VTubers, with only a few elements being hand-drawn to mesh with the pixel art style. Snap rigging requires many frames to be hand-drawn, making it pricier, but gives the satisfying appearance of real pixel animation.
+</p>
+<p>
     See more examples of my rigging work <a href="">here</a>.
 </p>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
     <div class="w3-center">
         <h3 class="com-title">Smooth rigging</h3>
         <iframe width="450" height="280" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p class="w3-justify" style="width:410px;">
-            This type of rigging looks nice on higher resolution models. Some elements like eyes and mouths are still done in a snap style to maintain the pixel art look.
-        </p>
     </div>
     <div class="w3-center">
         <h3 class="com-title">Snap rigging</h3>
         <iframe width="450" height="280" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p class="w3-justify" style="width:410px;">
-            This type of rigging works best for lower resolution models that want to fully embrace the pixel art aesthetic. If you love pixel animation, this style is best!
-        </p>
     </div>
 </div>
 
